@@ -1,0 +1,9 @@
+.product img{
+    width: 280px;
+}
+
+.card{
+    width: 300px !important;
+    margin: 10px auto !important;
+    padding: 10px !important;
+}
