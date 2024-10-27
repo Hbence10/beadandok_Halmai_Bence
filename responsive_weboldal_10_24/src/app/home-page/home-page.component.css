@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /*A fo cimeknek a fontja*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /**/
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); /*alap*/
+
+/* Hatterek eleresi utvonalai */
+/* One Piece */
+#img1{
+    background-image: url("../../assets/img/carousel/onePiece.png");
+}
+
+/* Naruto */
+#img2{
+    background-image: url("../../assets/img/carousel/naruto.png");
+}
+
+/* Dragon Ball */
+#img3{
+  background-image: url("../../assets/img/carousel/dragonBall.png");
+}
+
+/* Lycoris Recoil */
+#img4{
+    background-image: url("../../assets/img/carousel/lycorisRecoil.png");
+}
+
+/* Oregairu */
+#img5{
+    background-image: url("../../assets/img/carousel/oregairu.jpg");
+}
+
+/* Altalanos beallitas a hatterekhez */
+.bg{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Az aloldal */
+#sideSite{
+    /* background-image: url("../../assets/img/homePage/secondBg.png"); */
+    color: white !important;
+}
+
+/* A carouselben fellelheto szovegek */
+.carouselText{
+    font-family: "Fjalla One", sans-serif !important;
+    font-weight: 800 !important;
+    font-style: normal !important;
+    font-size: 62px !important;
+    position: relative !important;
+    color: white !important;
+    text-shadow: 0px 0px 25px black;
+}
+
+
+.leftDiv{
+    position: absolute;
+    top: 375px;
+    left: 1250px;
+}
+
+.rightDiv{
+  position: absolute;
+  top: 375px;
+  left: 350px;
+}
+
+
+
+/* Carouselben szereplo gombok: */
+.carouselButton{
+    transition: 0.4s;
+    font-family: "Passion One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    color: white !important;
+    text-shadow: 0px 0px 25px black;
+}
+
+.carouselButton:hover{
+    transition: 0.4s;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .rightDiv{
+    position: absolute;
+    top: 125px;
+    left: 100px;
+  }
+}

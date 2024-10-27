@@ -1,0 +1,38 @@
+<div class="container-fluid" id="mainContainer" >
+  <div class="row">
+    <!-- Kep -->
+    <div class="col-lg-7 d-flex justify-content-center align-items-center">
+      <img [src]="frontend.selectedAnime.coverImg" alt="" class="img-fluid my-4">
+    </div>
+
+    <div class="col-lg-5 my-4">
+      <h1 class="text-center">{{frontend.selectedAnime.title}}</h1>
+      <p class="text-lg-start text-md-center text-sm-center text-center m-0 mb-1"><span class="fw-bold">Mangaka:</span> {{frontend.selectedAnime.mangaka}}</p>
+      <p class="text-lg-start text-md-center text-sm-center text-center m-0 mb-1"><span class="fw-bold">Artist(s):</span> {{frontend.selectedAnime.artist}}</p>
+      <p class="text-lg-start text-md-center text-sm-center text-center m-0 mb-1"><span class="fw-bold">Studio(s):</span> {{frontend.selectedAnime.studio.join(", ")}}</p>
+
+      <div class="container-fluid my-3">
+        <div class="row">
+          <div class="col-lg-12 p-0">
+            <h4 class="text-lg-start text-md-center text-sm-center text-center m-0">About the Anime:</h4>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 p-0">
+            <p class="text-lg-start text-md-center text-sm-center text-center m-0 mb-3" *ngFor="let paragraph of frontend.selectedAnime.description.split('<br>')">{{paragraph}}</p>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-lg-12 d-flex flex-row justify-content-center align-items-center">
+            <a target="_blank" [href]="frontend.selectedAnime.myAnimeListLink"><button class="mx-2 btn btn-outline-light">MyAnimeList</button></a>
+            <a target="_blank" [href]="frontend.selectedAnime.trailerLink"><button class="mx-2 btn btn-outline-light">Trailer Link</button></a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>

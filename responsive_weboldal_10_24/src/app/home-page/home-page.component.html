@@ -1,0 +1,78 @@
+<div class="container-fluid">
+  <!-- Egy sima carousel ami promokent szolgal: -->
+  <div class="row">
+    <div class="col-lg-12 p-0" >
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+              <!-- 1-es anime -->
+              <div class="carousel-item active" data-bs-interval="3000">
+                <div class="d-block w-100 bg" id="img1">
+                    <div class="rightDiv">
+                      <h1 class="carouselText m-0">{{"One Piece" | uppercase}}</h1>
+                      <button  class="carouselButton" (click)="checkAnime(frontend.animeList[5])">Check the Anime</button>
+                    </div>
+                </div>
+              </div>
+
+              <!-- 2-es anime -->
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-block w-100 bg" id="img2">
+                  <div class="rightDiv">
+                    <h1 class="carouselText m-0">{{"Naruto" | uppercase}}</h1>
+                    <button  class="carouselButton" (click)="checkAnime(frontend.animeList[4])">Check the Anime</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3-as anime -->
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-block w-100 bg" id="img3">
+                  <div class="rightDiv">
+                    <h1 class="carouselText m-0">{{"Dragon Ball" | uppercase}}</h1>
+                    <button  class="carouselButton" (click)="checkAnime(frontend.animeList[2])">Check the Anime</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4-es anime -->
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-block w-100 bg" id="img4">
+                  <div class="rightDiv">
+                    <h1 class="carouselText m-0">{{"Lycoris Recoil" | uppercase}}</h1>
+                    <button class="carouselButton" (click)="checkAnime(frontend.animeList[3])">Check the Anime</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5-os anime -->
+              <div class="carousel-item" data-bs-interval="3000">
+                <div class="d-block w-100 bg" id="img5">
+                  <div class="rightDiv">
+                    <h1 class="carouselText m-0">{{"Oregairu"| uppercase}}</h1>
+                    <button class="carouselButton" (click)="checkAnime(frontend.animeList[1])">Check the Anime</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+
+          </div>
+    </div>
+  </div>
+
+  <!-- All-kontent -->
+   <div class="row">
+    <div class="col-lg-12">
+
+    </div>
+   </div>
+</div>

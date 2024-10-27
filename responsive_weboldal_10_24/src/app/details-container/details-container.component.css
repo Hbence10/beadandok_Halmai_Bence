@@ -1,0 +1,9 @@
+#mainContainer{
+  background-color: #222831;
+  color: #EEEEEE;
+  min-height: 90vh;
+}
+
+img{
+  height: 600px !important;
+}

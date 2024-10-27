@@ -1,0 +1,16 @@
+.coverImg{
+  height: 375px;
+}
+
+.cardBody{
+  transition: 0.5s;
+  background-color: #222831;
+  width: 430px;
+  height: 550px;
+  border-radius: 5px;
+}
+
+.cardBody:hover{
+  transition: 0.5s;
+  box-shadow: 0px 0px 23px 2px white;
+}

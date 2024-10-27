@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Fjalla+One&display=swap');
+
+a{
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.active{
+  background-color: #00ADB5;
+}

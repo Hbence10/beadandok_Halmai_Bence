@@ -1,0 +1,31 @@
+<div class="container-fluid my-4">
+  <div class="row d-flex justify-content-center align-items-center">
+
+    <div class="col-lg-12 cardBody">
+      <div class="container-fluid">
+        <!-- Cover IMG -->
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center align-items-center">
+            <img [src]="anime.coverImg" alt="" class="img-fluid coverImg">
+          </div>
+        </div>
+
+        <!-- cim: -->
+        <div class="row my-2">
+          <div class="col-lg-12">
+            <h2 class="text-center m-0">{{anime.title}}</h2>
+            <h6 class="text-center m-0 mb-2">By: {{anime.mangaka}}</h6>
+          </div>
+        </div>
+
+        <!-- Gomb -->
+        <div class="row">
+          <div class="col-lg-12 d-md-flex d-sm-flex d-flex justify-content-center align-items-center">
+            <button class="btn btn-outline-light" (click)="checkAnime(anime)">Check Details</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

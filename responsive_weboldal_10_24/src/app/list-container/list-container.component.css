@@ -1,0 +1,10 @@
+#listBody{
+  background-image: url("../../assets/img/secondBg.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+*{
+  color: white;
+}

@@ -1,0 +1,7 @@
+<div class="container-fluid" id="listBody">
+  <div class="row" *ngFor="let row of rows">
+    <div class="col-lg-4" *ngFor="let anime of row">
+        <app-card [anime]="anime"></app-card>
+    </div>
+  </div>
+</div>
