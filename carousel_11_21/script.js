@@ -1,5 +1,4 @@
 const carouselBody = document.getElementById("carouselBody")
-const buttonRow = document.getElementById("buttonRow")
 
 carouselBody.innerHTML = ""
 async function apiCallFunction(){
@@ -29,7 +28,7 @@ function writeDeatils(response, index, gameLength){
                               <p class="m-0 mb-1">Összesen ${gameLength} elem van.</p>
                             </div>
                         </div>
-                        `
+                        `       
 }
 
 document.addEventListener("DOMContentLoaded", apiCallFunction())
