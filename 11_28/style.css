@@ -1,0 +1,21 @@
+.card{
+    /* height: 650px !important; */
+    width: 350px;
+}
+
+#heroSection{
+    height: 100vh;
+    background-image: url("./images/heroBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+img{
+    width: 450px ;
+}
+
+#iconImage{
+    width: 50px !important;
+}
