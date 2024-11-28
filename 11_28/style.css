@@ -1,5 +1,5 @@
 .card{
-    /* height: 650px !important; */
+    transition: 0.3s ease;
     width: 350px;
 }
 
@@ -11,11 +11,51 @@
     background-attachment: fixed;
 }
 
-
 img{
     width: 450px ;
 }
 
 #iconImage{
     width: 50px !important;
+}
+
+#contentRow{
+    background-image: url("./images/secondBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+label{
+    font-size: 26px !important;
+}
+
+.card:hover{
+    transition: 0.3s ease;
+    transform: scale(1.2, 1.2);
+    box-shadow: 0px 0px 34px 0px white;
+}
+
+/* Google maps: */
+#map {
+    height: 100%;
+  }
+
+/* Media: */
+@media only screen and (max-width: 1024px) {
+    label{
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    label{
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    label{
+        font-size: 10px !important;
+    }
 }

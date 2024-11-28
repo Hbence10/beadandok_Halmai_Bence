@@ -14,7 +14,7 @@
         <!-- header -->
         <div class="row">
             <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+                <nav class="navbar navbar-expand-lg sticky-top">
                     <div class="container-fluid">
                       <img src="images/icon.jpg" alt="page_logo" id="iconImage" class="mx-2">
                       <a class="navbar-brand" href="#">Ghibli movies</a>
@@ -23,19 +23,19 @@
                       </button>
                       <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                          </li>
-                        </ul>
+                            <li class="nav-item">
+                              <a class="nav-link text-lg-start text-md-center text-sm-center text-center" aria-current="page" href="#">Link #1</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-lg-start text-md-center text-sm-center text-center" href="#">Link #2</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-lg-start text-md-center text-sm-center text-center" href="#">Link #3</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-lg-start text-md-center text-sm-center text-center" aria-disabled="true">Link #4</a>
+                            </li>
+                          </ul>
                       </div>
                     </div>
                   </nav>
@@ -50,68 +50,78 @@
 
 
         <!-- contenet -->
-        <div class="row">
+        <div class="row" id="contentRow">
             <div class="col-lg-12">
                 <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="text-center text-white mt-4">Ai Photos</h1>
+                        </div>
+                    </div>
+
                     <!-- "oszlopok" -->
                     <div class="row my-3" id="cardRow">
-                        <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
-                            <div class="card" >
-                                <img src="images/card1.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
+                       <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
+                                <div class="card" >
+                                    <img src="images/card1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Totoro</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                            </div>
+    
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
+                                <div class="card">
+                                    <img src="images/card2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Chihiro</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                            </div>
+    
+                            <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
+                                <div class="card">
+                                    <img src="images/card3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Naruto with Ghibli Style</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                            </div>
                         </div>
-
-                        <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
-                            <div class="card">
-                                <img src="images/card2.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
-
-                        <div class="col-lg-4 d-flex justify-content-center align-items-center my-4">
-                            <div class="card">
-                                <img src="images/card3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                  <h5 class="card-title">Card title</h5>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
-                              </div>
-                        </div>
+                       </div>
 
                     </div>
 
                     <!-- Urlap: -->
                     <div class="row" id="formRow">
                         <div class="col-lg-12">
-                            <h1 class="text-center">Which anime is your favourite? Why?</h1>
+                            <h1 class="text-center text-white my-5">Which anime is your favourite? Why?</h1>
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-3">
-                                        <label class="form-text" for="">Your name:</label>
+                                        <label class="form-text text-white fw-bold w-100 text-lg-start text-md-center text-sm-center text-center mt-lg-0 mt-md-3 mt-sm-3 mt-3" for="">Your name:</label>
                                         <input type="text" class="form-control" placeholder="Your name">
                                     </div>
                                     <div class="col-lg-9">
-                                        <label class="form-text" for="">Your Email:</label>
+                                        <label class="form-text text-white fw-bold w-100 text-lg-start text-md-center text-sm-center text-center mt-lg-0 mt-md-3 mt-sm-3 mt-3" for="">Your Email:</label>
                                         <input type="text" class="form-control" placeholder="Your email address">
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <label for="" class="form-text">Anime:</label>
+                                        <label for="" class="form-text text-white fw-bold w-100 text-lg-start text-md-center text-sm-center text-center mt-lg-3 mt-md-3 mt-sm-3 mt-3">Anime:</label>
                                         <input type="text" class="form-control" placeholder="Anime's title">
                                 
-                                        <label for="" class="form-text">Your opinion:</label>
+                                        <label for="" class="form-text text-white fw-bold w-100 text-lg-start text-md-center text-sm-center text-center mt-lg-3 mt-md-3 mt-sm-3 mt-3">Your opinion:</label>
                                         <textarea name="" id="" class="form-control" placeholder="Your opinion"></textarea>
 
                                         <button class="btn btn-dark w-100 my-4">Send</button>
@@ -125,20 +135,42 @@
         </div>
 
         <!-- footer -->
-        <div class="row mt-4 mb-2">
-            <div class="col-lg-12">
-                <p class="m-0 text-center"><span class="fw-bold">Made by:</span> Bence Halmai</p>
+        <div class="row bg-black">
+            <div class="col-lg-12 my-3">
+                <p class="m-0 text-center text-white"><span class="fw-bold">Made by:</span> Bence Halmai</p>
                 <p class="text-center m-0">
-                    <span class="fw-bold">Contacts:</span>
-                    <a class="mx-1 text-black" target="_blank" href="https://github.com/Hbence10"><i class="fa-brands fa-github"></i></a>
-                    <a class="mx-1 text-black" target="_blank" href="https://www.facebook.com/halmai.bence.5?locale=hu_HU"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a class="mx-1 text-black" target="_blank" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="mx-1 text-black" target="_blank" href="#"><i class="fa-solid fa-envelope"></i></a>
+                    <span class="fw-bold text-white">Contacts:</span>
+                    <a class="mx-1 text-white" target="_blank" href="https://github.com/Hbence10"><i class="fa-brands fa-github"></i></a>
+                    <a class="mx-1 text-white" target="_blank" href="https://www.facebook.com/halmai.bence.5?locale=hu_HU"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="mx-1 text-white" target="_blank" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="mx-1 text-white" target="_blank" href="#"><i class="fa-solid fa-envelope"></i></a>
                 </p>
             </div>
+            <div id="map"></div>
         </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${
+        c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+            ({key: "INSERT_YOUR_API_KEY", v: "weekly"});
+
+            let map;
+
+            async function initMap() {
+            const { Map } = await google.maps.importLibrary("maps");
+
+            map = new Map(document.getElementById("map"), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8,
+            });
+            }
+
+            initMap();
+            
+    
+    
+    </script>
 </body>
 </html>
