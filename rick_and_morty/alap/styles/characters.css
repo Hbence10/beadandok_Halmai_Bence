@@ -1,0 +1,88 @@
+#characterContainer{
+    overflow-y: auto;
+}
+
+.card{
+    width: 300px;
+}
+
+#sideBar{
+    width: 550px;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    z-index: 9999;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.hideSideBar{
+    animation: hide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease;
+}
+
+.showSideBar{
+    animation: show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition: ease;
+}
+
+.episodeContainer{
+    border-bottom: 1px solid #a9f3fd;
+}
+
+@keyframes hide{
+    from {left: 0%; display: block;}
+    to {left: -100%; display: none;}
+}
+
+@keyframes show{
+    from {left: -550px; display: none;}
+    to {left: 0%; display: block;}
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.form-select{
+    border: 1px solid #a9f3fd !important;
+}
+
+.form-select, option{
+    background-color: #1c3042;
+}
+
+.selectedPage{
+    background-color: #a9f3fd !important;
+    color: #1c3042 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    #sideBar{
+        width: 100%;
+        height: 100%;
+    }
+
+    @keyframes hide{
+        from {bottom: 0%; display: block;}
+        to {bottom: -100%; display: none;}
+    }
+    
+    @keyframes show{
+        from {bottom: -550px; display: none;}
+        to {bottom: 0%; display: block;}
+    }
+}
+
+#header{
+    height: auto;
+    z-index: 9999;
+    transition: 0.5s;
+}

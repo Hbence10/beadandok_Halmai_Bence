@@ -1,0 +1,18 @@
+/* Kozos dolgok: */
+body{
+  background-image: url("./assets/images/characterListBg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+app-side-bar{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 9999 !important;
+  position: fixed;
+}
+
